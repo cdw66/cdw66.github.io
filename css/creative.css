@@ -76,6 +76,18 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.fa-desktop {
+  color: #3f88c5;
+}
+
+.fa-rocket {
+  color: #44bba4;
+}
+
+.fa-gamepad {
+  color: #393e41;
+}
+
 section {
   padding: 8rem 0;
 }
