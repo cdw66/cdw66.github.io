@@ -11,11 +11,15 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #e94f37;
 }
 
 hr.light {
   border-color: #fff;
+}
+
+hr.blue {
+  border-color: #3f88c5;
 }
 
 a {
@@ -35,15 +39,37 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Open Sans', 'Helveticava Neue', Arial, sans-serif;
 }
 
-.bg-primary {
-  background-color: #F05F40 !important;
+.parallax {
+    /* The image used */
+    background-image: url("http://experimentexchange.com/wp-content/uploads/2016/07/penguins-fact.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.bg-orange {
+  background-color: #e94f37 !important;
+}
+
+.bg-blue {
+  background-color: #3f88c5;
+}
+
+.bg-green {
+  background-color: #44bba4;
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #393e41 !important;
 }
 
 .text-faded {
@@ -169,7 +195,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/stars.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -298,8 +324,14 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #e94f37;
+  border-color: #e94f37;
+}
+
+.btn-blue {
+  background-color: #3f88c5;
+  border-color: #3f88c5;
+  color: #fff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
