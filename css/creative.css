@@ -118,6 +118,19 @@ img::-moz-selection {
   background: transparent;
 }
 
+img.photos {
+  height: 250px;
+  width: auto;
+  margin: 10%;
+}
+
+#pic {
+  height: 100px;
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
