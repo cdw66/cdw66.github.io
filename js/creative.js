@@ -73,3 +73,18 @@
   });
 
 })(jQuery); // End of use strict
+
+var fortunes = ["Good luck is the result of good planning.",
+               "Good things are being said about you.",
+               "Smiling often can make you look and feel younger.",
+               "Someone is speaking well of you.",
+               "The time is right to make new friends.",
+               "You will inherit some money or a small piece of land.",
+               "Your life will be happy and peaceful.",
+               "A friend is a present you give yourself."];
+
+function getFortune(fortunes) {
+  var num = Math.random() * fortunes.length-1;
+  var index = parseInt(num)
+  window.alert(fortunes[index]);
+}
